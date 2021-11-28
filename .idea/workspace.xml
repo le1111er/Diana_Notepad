@@ -9,13 +9,8 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb4cf20c-93db-46eb-a3d2-db6e6b2ff01d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="eb4cf20c-93db-46eb-a3d2-db6e6b2ff01d" name="Default Changelist" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/notepad/NoteEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/notepad/NoteEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/noteslist_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/noteslist_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/noteslistitem.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/noteslistitem.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/editor_options_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/editor_options_menu.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +33,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="20zEzUfe99hnqMIBqHBtolYWtWc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,7 +47,7 @@
     <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
@@ -124,6 +118,14 @@
       <option name="presentableId" value="Default" />
       <updated>1637039279471</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1638078135345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638078135345</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,5 +139,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
