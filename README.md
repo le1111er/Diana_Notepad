@@ -16,6 +16,8 @@
  ```
    ### 更改背景功能
 ![image](https://github.com/le1111er/Diana_Notepad/blob/bb89d5378eeb93a7dd8e19e96e2edb7a0f0cfaa2/app/src/main/res/drawable/mainmenu.png)
+![image](https://github.com/le1111er/Diana_Notepad/blob/a89227a61fb184730e56e3a63304e1fe93f44789/app/src/main/res/drawable/skin1.png)
+![image](https://github.com/le1111er/Diana_Notepad/blob/a89227a61fb184730e56e3a63304e1fe93f44789/app/src/main/res/drawable/skin2.png)
 ```java
     /*
        背景颜色选择框
@@ -75,6 +77,9 @@
                 break;
         }
 ```
+```java
+
+```
    ### 时间戳功能
 ```java
 public class NoteBean {
@@ -126,6 +131,18 @@ public class NoteBean {
 
 }
 ```
+```java
+public class DateUtil {
+    public static String StringToDate(String str_data) {
+        String beginDate = str_data;
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String sd = sdf.format(new Date(Long.parseLong(beginDate)));
+        return  sd;
+    }
+}
+```
+  ### 搜索功能
+  ![image](https://github.com/le1111er/Diana_Notepad/blob/a89227a61fb184730e56e3a63304e1fe93f44789/app/src/main/res/drawable/find.png)
 ## 2.编辑界面
 ![image](https://github.com/le1111er/Diana_Notepad/blob/bb89d5378eeb93a7dd8e19e96e2edb7a0f0cfaa2/app/src/main/res/drawable/editor.png)
-Debug Note:上锁功能待添加，仅实现弹窗
+<br>Debug Note:上锁功能待添加，仅实现弹窗</br>
