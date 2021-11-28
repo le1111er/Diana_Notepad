@@ -5,9 +5,9 @@ import android.database.Cursor;
 
 
 public class NoteBean {
-    private String Title;//笔记的标题
-    private String createTime;//笔记的创建时间
-    private String Cursor_id;//所属的游标的position
+    private String Title; //笔记的标题
+    private String createTime; //笔记的创建时间
+    private String Cursor_id; //所属的游标的position
 
     public NoteBean(String title, String createTime) {
         Title = title;
